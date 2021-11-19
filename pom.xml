@@ -55,7 +55,6 @@
                     </execution>
                     <execution>
                         <id>check</id>
-                        <phase>verify</phase>
                         <goals>
                             <goal>check</goal>
                         </goals>
@@ -67,7 +66,7 @@
                             <element>BUNDLE</element>
                             <limits>
                                 <limit>
-                                    <counter>BRANCH</counter>
+                                    <counter>INSTRUCTION</counter>
                                     <value>COVEREDRATIO</value>
                                     <minimum>1</minimum>
                                 </limit>
